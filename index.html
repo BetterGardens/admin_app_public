@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--
+      If you are serving your web app in a path other than the root, change the
+      href value below to reflect the base path you are serving from.
+
+      The path provided below has to start and end with a slash "/" in order for
+      it to work correctly.
+
+      Fore more details:
+      * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+    -->
+    <base href="/ip34-20vt_biodiversity/biodiversity_admin_app/">
+
+    <meta charset="UTF-8">
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+    <meta content="An admin page for the better gardens app" name="description">
+
+    <!-- iOS meta tags & icons -->
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="biodiversity_admin_app" name="apple-mobile-web-app-title">
+    <link href="icons/Icon-192.png" rel="apple-touch-icon">
+
+
+    <!-- Favicon -->
+    <link href="favicon.png" rel="icon" type="image/png"/>
+
+    <title>biodiversity_admin_app</title>
+    <link href="manifest.json" rel="manifest">
+</head>
+<body>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-storage.js"></script>
+
+<script>
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    var firebaseConfig = {
+        apiKey: "AIzaSyCqWnnMZ7q2d4Hy3Mtv_So4FqPUOhsTSPE",
+        authDomain: "biodiversity-database.firebaseapp.com",
+        databaseURL: "https://biodiversity-database.firebaseio.com",
+        projectId: "biodiversity-database",
+        storageBucket: "biodiversity-database.appspot.com",
+        messagingSenderId: "658901568912",
+        appId: "1:658901568912:web:9814ddf8c947a224c5b715",
+        measurementId: "G-95SBN6G8WW"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+</script>
+
+<!-- This script installs service_worker.js to provide PWA functionality to
+     application. For more information, see:
+     https://developers.google.com/web/fundamentals/primers/service-workers -->
+<script>
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('flutter-first-frame', function () {
+            navigator.serviceWorker.register('flutter_service_worker.js?v=4082456018');
+        });
+    }
+</script>
+<script src="main.dart.js" type="application/javascript"></script>
+</body>
+</html>
