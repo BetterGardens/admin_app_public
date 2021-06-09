@@ -10,8 +10,8 @@ const RESOURCES = {
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "assets/res/logo.png": "5850cfc0fc6174cf58b3be4ce0e33ad9",
 "favicon.png": "7350808eb8fa3bbd4d1d5570813ee3ca",
-"index.html": "ef59d11f577c5d17fb430ddf05cbcdf7",
-"/": "ef59d11f577c5d17fb430ddf05cbcdf7",
+"index.html": "e65f39507a5e8fd3933b64b5d2f2f7b5",
+"/": "e65f39507a5e8fd3933b64b5d2f2f7b5",
 "main.dart.js": "548cdafbebd98599f69513dae093e2b2",
 "manifest.json": "65f4889c04184c604145f71d68872cb5",
 "version.json": "8c329e3b63a979a3c6329e17a003a0ad"
